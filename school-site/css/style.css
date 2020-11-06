@@ -42,7 +42,7 @@ figure img {
 }
 
 figcaption {
-    margin:.375rem 0;
+    margin:.375rem;
 }
 
 .long-list {
@@ -123,7 +123,7 @@ h2 + p{
 }
 p{
   font-size: 0.75rem;
-  letter-spacing: 0.031rem;
+  letter-spacing: 0.03125rem;
   word-spacing: 0.125rem;
 }
 li{
@@ -207,7 +207,7 @@ nav a{
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    border: solid 0.063rem #33658A;
+    border: solid 0.0625rem #33658A;
 
 
 }
