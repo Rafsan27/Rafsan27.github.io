@@ -1,0 +1,215 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+
+        /*
+
+        Spacing
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+
+body{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-left: 3rem;
+
+  border-right: 3rem;
+  border: solid 1px black;
+  border-top-style: none;
+
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+}
+#rotate1{
+  transform: rotate(-4deg);
+}
+#rotate2{
+  transform: rotate(-4deg);
+  text-decoration: line-through;
+}
+#bigHead{
+  position: relative;
+  padding-top: 100px;
+}
+
+.highlight{
+  text-shadow: 1px black;
+  text-transform: capitalize;
+
+  font-family: 'Poppins', sans-serif;
+
+}
+nav{
+  border: solid 1px black;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: grid;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+main h2{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+*{
+  font-family: 'Mukta', sans-serif;
+}
+img{
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
+#stag{
+    position: relative;
+    right: 2.5rem;
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+
+}
+
+.main-section{
+ padding-right : 3rem;
+ padding-left: 3rem;
+ display: inline-grid;
+ grid-template-columns: 2fr 0.7fr;
+}
+section > article{
+  flex: 0 0 50px;
+  margin-right: 5px;
+  white-space: inherit;
+  padding-right: 2rem;
+
+
+}
+.sidebar{
+  flex: 0 0 500px;
+  border-left: 1px solid black;
+  padding-left: 2rem;
+  align-items: center;
+}
+article > p {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+article img{
+    max-width: 35vw;
+    max-height: 35vh;
+}
+img:hover{
+    border-bottom-style: solid;
+    color: red;
+}
+.sidebar > p{
+    font-size: 1.10rem;
+    text-align: justify;
+}
+nav li{
+  display: inline;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-weight: bold;
+  font-size: 1.8rem;
+
+}
+li:hover{
+  color:red;
+}
+.subsection{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  max-width: 10vw;
+}
+.subsection > figure {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 10px;
+
+}
+.subsection > figure > figcaption{
+  font-weight: bold;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+button{
+  border-radius: 25px;
+  width: 12vw;
+  height: 6vw;
+  background-color: #596169 ;
+  font-size: 2rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+button:hover{
+    background-color: #4076a8;
+
+}
+
+footer p{
+  padding-left: 3rem;
+}
+a:hover{
+  color: red;
+}
+h3{
+  font-size: 1.5rem;
+}
