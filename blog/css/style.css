@@ -69,12 +69,17 @@ h1{
   transform: rotate(-4deg);
 }
 #rotate2{
-  transform: rotate(-4deg);
-  text-decoration: line-through;
+    display: inline-block;
+      text-decoration: line-through;
+      transform: rotate(4deg);
+}
+li > a {
+      text-decoration: none;
+
 }
 #bigHead{
   position: relative;
-  padding-top: 100px;
+  padding-top: 5rem;
 }
 
 .highlight{
@@ -126,15 +131,13 @@ img{
  padding-right : 3rem;
  padding-left: 3rem;
  display: inline-grid;
- grid-template-columns: 2fr 0.7fr;
+ grid-template-columns: 2fr 0.7fr;  
 }
 section > article{
   flex: 0 0 50px;
-  margin-right: 5px;
+  margin-right: 0px;
   white-space: inherit;
   padding-right: 2rem;
-
-
 }
 .sidebar{
   flex: 0 0 500px;
@@ -179,7 +182,7 @@ li:hover{
   background-color: black;
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 0.75rem;
 
 }
 .subsection > figure > figcaption{
@@ -203,13 +206,19 @@ button:hover{
     background-color: #4076a8;
 
 }
-
+footer{
+    padding-top: 2rem;
+}
 footer p{
   padding-left: 3rem;
-}
-a:hover{
-  color: red;
+    text-align: center;
 }
 h3{
-  font-size: 1.5rem;
+    padding-top: 1rem;
+  font-size: 1.7rem;
+}
+time{
+    text-align: right;
+    font-weight: bold;
+    
 }
