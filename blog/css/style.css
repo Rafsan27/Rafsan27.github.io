@@ -134,13 +134,11 @@ img{
  grid-template-columns: 2fr 0.7fr;  
 }
 section > article{
-  flex: 0 0 50px;
   margin-right: 0px;
   white-space: inherit;
   padding-right: 2rem;
 }
 .sidebar{
-  flex: 0 0 500px;
   border-left: 1px solid black;
   padding-left: 2rem;
   align-items: center;
